@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+background-image: radial-gradient(rgb(6, 6, 75) , rgb(10, 90, 133));
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  width: 100%;
+}
+  
+
+#header{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    color: black;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 50px;
+    top:0;
+    
+}
+.list-title{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    
+
+}
+.list-profile{
+    margin-right: 20px;
+    list-style-type: none;
+}
+.list-profile a{
+    color: black;
+    text-decoration: none;
+}
+.list-profile a:hover,a:active{
+    color:brown;
+    transition: 1s;
+    padding: 10px;
+}
+.card{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    position: relative;
+    margin-left: 10rem;
+
+}
+.section1{
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: rgb(10, 83, 151);
+    padding: 50px;
+}
+.section1 img{
+    border: 1px solid rgb(196, 53, 53);
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+img[alt]{
+    border: 2px solid black;
+}
+figcaption{
+    font-size: 30px;
+    font-weight: 700;
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    border-top: 1px solid black;
+    margin-top: 30px;
+    padding: 40px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+ul li{
+    display: inline;
+padding: 20px;
+}
+ul li a{
+    color: rgb(42, 165, 101);
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+}
+.par{
+font-style: italic;
+margin-top: 30px;
+text-align: center;
+}
+@media  screen and (min-width:300px)and (max-width:800px) {
+    body{
+        background-image:radial-gradient(white,blue);
+  width: 100%;
+
+    }
+    #header{
+       color: rgb(1, 14, 4);
+       font-family:'Courier New', Courier, monospace;
+       border: none;
+       background-color: aqua;
+       position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    }
+    #header h2{
+        position: relative;
+    text-align: center;
+    left: 1rem;
+    top:0;
+    
+    }
+    .list-title{
+        position: relative;  
+        background-color: aquamarine;
+        top: 1rem;
+        width: 150%;
+        left: -2rem;
+        
+
+}
+    .list-title ul{
+        position: absolute;
+        display: flex;
+        flex-flow: row wrap;
+        top: 0;
+        right: 7rem;
+
+    }
+    .list-title ul a{
+        color:rgb(228, 58, 58);
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+   
+   .card{
+    position: relative;
+    display:flex;
+    flex-flow: column wrap;
+   left:-5rem;
+    align-items: center;
+    top: 0;
+    
+   }
+   .section1{
+   color:rgb(5, 0, 0)
+   }
+   span{
+    color: rgb(24, 210, 129);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+   }
+      footer{
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: aquamarine;
+        top: 0;
+        padding-bottom: 20rem;
+
+        
+      } 
+      #footer-block ul{
+        position: absolute;
+        top: 1rem;
+        left: -1rem;
+      
+      }
+      .par{
+        position: absolute;
+        top: 2rem;
+        left: 5rem;
+      }
+      #footer-block ul a{
+        font-size: 15px;
+      }
+}
+
+    
+@media screen and (min-width: 800px) {
+    
+
+}
+
+
+/* Styles for desktops */
+@media screen and (min-width: 769px) {
+   
+    
+}
